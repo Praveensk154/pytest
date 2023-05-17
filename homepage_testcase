@@ -1,1 +1,3 @@
 verify that free modules are working are need to stable first
+verify that while editing any file in the remote repository you must be on the main branch
+verify that before login to the github acoount you must be enter the code
