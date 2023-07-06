@@ -15,9 +15,6 @@ class UserLogiPage:
     Click_SignButton_ID = (By.ID, "sgnBt")
     Status_Title = "Electronics, Cars, Fashion, Collectibles & More | eBay"
 
-
-
-
     def __init__(self, driver):
         self.driver = driver
 
@@ -36,7 +33,7 @@ class UserLogiPage:
     def Click_SignButton(self):
         self.driver.find_element(*UserLogiPage.Click_SignButton_ID).click()
 
-    def Status_Title(self):
+    def Status(self):
         try:
             self.driver.title(*UserLogiPage.Status_Title)
             return True
